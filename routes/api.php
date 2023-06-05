@@ -24,3 +24,4 @@ Route::group(['prefix' => 'v1', 'namespace' => 'App\Http\Controllers\Api\V1'], f
     Route::apiResource('customer', CustomerController::class);
     Route::apiResource('invoices', InvoiceController::class);
 });
+
